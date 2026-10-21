@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.menu-container {
+    width: 220px;
+    background: #e6e6e6;
+    border: 1px solid #c0c0c0;
+    box-shadow: 4px 4px 8px #aaa;
+}
+
+.menu-item {
+    position: relative;
+    border-bottom: 1px solid #b8b8b8;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.item-link {
+    display: block;
+    padding: 14px 15px;
+    background: linear-gradient(to bottom, #ececec, #dadada);
+    color: #111;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.menu-item:hover > .item-link {
+    background: linear-gradient(to bottom, #b5b5b5, #858585);
+    color: #000;
+}
+
+.menu-task2 .drop-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 200px;
+    background: #eaeaea;
+    border: 1px solid #c0c0c0;
+    box-shadow: 4px 4px 8px #aaa;
+    z-index: 10;
+}
+
+.menu-task2 .menu-item:hover > .drop-menu {
+    display: block;
+}
+
+.menu-task2 .drop-link {
+    display: block;
+    padding: 12px 15px;
+    background: linear-gradient(to bottom, #f2f2f2, #e0e0e0);
+    color: #111;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.menu-task2 .drop-link:last-child {
+    border-bottom: none;
+}
+
+.menu-task2 .drop-link:hover {
+    background: linear-gradient(to bottom, #b5b5b5, #858585);
+    color: #000;
+}
+
+.menu-task2-star .drop-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 210px;
+    background: #eaeaea;
+    border: 1px solid #c0c0c0;
+    box-shadow: 4px 4px 8px #aaa;
+    z-index: 10;
+}
+
+.menu-task2-star .menu-item:hover > .drop-menu {
+    display: block;
+}
+
+.menu-task2-star .sub-item {
+    position: relative;
+}
+
+.menu-task2-star .drop-link {
+    display: block;
+    padding: 12px 15px;
+    background: linear-gradient(to bottom, #f2f2f2, #e0e0e0);
+    color: #111;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.menu-task2-star .drop-menu > .drop-link:last-child,
+.menu-task2-star .sub-item:last-child .drop-link {
+    border-bottom: none;
+}
+
+.menu-task2-star .drop-link:hover,
+.menu-task2-star .sub-item:hover > .drop-link {
+    background: linear-gradient(to bottom, #b5b5b5, #858585);
+    color: #000;
+}
+
+.menu-task2-star .subdrop-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 200px;
+    background: #eaeaea;
+    border: 1px solid #c0c0c0;
+    box-shadow: 4px 4px 8px #aaa;
+    z-index: 20;
+}
+
+.menu-task2-star .sub-item:hover > .subdrop-menu {
+    display: block;
+}
+
+.menu-task2-star .subdrop-link {
+    display: block;
+    padding: 11px 15px;
+    background: linear-gradient(to bottom, #f9f9f9, #e8e8e8);
+    color: #111;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.menu-task2-star .subdrop-link:last-child {
+    border-bottom: none;
+}
+
+.menu-task2-star .subdrop-link:hover {
+    background: linear-gradient(to bottom, #b5b5b5, #858585);
+    color: #000;
+}
+
+.menu-task3 .menu-item {
+    position: static;
+}
+
+.menu-task3 .drop-menu {
+    display: none;
+    background: #f4f4f4;
+}
+
+.menu-task3 .menu-item:hover > .drop-menu {
+    display: block;
+}
+
+.menu-task3 .drop-link {
+    display: block;
+    padding: 12px 15px;
+    background: linear-gradient(to bottom, #fafafa, #eaeaea);
+    color: #111;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    border-top: 1px solid #dcdcdc;
+}
+
+.menu-task3 .drop-link:hover {
+    background: linear-gradient(to bottom, #b5b5b5, #858585);
+    color: #000;
+}

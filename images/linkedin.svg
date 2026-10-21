@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="gradLi" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a66c2"/>
+      <stop offset="100%" stop-color="#004182"/>
+    </linearGradient>
+    <filter id="glowLi" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="url(#gradLi)"/>
+  <g filter="url(#glowLi)">
+    <circle cx="41" cy="41" r="9" fill="#ffffff"/>
+    <rect x="32" y="54" width="18" height="38" rx="3" fill="#ffffff"/>
+    <path d="M59 54 H75 V60 C77.5 56 83 53 90 53 C101.5 53 106 60.5 106 72 V92 H89 V74.5 C89 69.5 87 66 82 66 C76.5 66 74 70 74 75 V92 H59 V54 Z" fill="#ffffff"/>
+  </g>
+</svg>
